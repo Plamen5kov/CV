@@ -40,10 +40,17 @@ const contactInfo = [
 ]
 
 const summaryInfo =
-    'Most of all I like challenges and I\'m always eager to learn. I care deeply about sharing my knowledge as well as learning what I can from the people I work with. Community Advisor for Project Catalyst in my spare time for fund 6,7,8. I believe crypto is the future and I want to be part of the solution by helping with the building blocks. Big Linux fan!'
+    'Most of all I like challenges and I\'m always eager to learn. I care deeply about sharing my knowledge as well as learning what I can from the people I work with. Community Advisor for Project Catalyst in my spare time for fund 6,7,8. Got involved with working on distributed systems. I believe crypto is the future and I want to be part of the solution by helping with the building blocks. Big Linux fan!'
 
 
 const experinceInfo = [
+    {
+        workAt: 'Freelance',
+        position: 'Blockchain Developer',
+        duration: 'Aug 2021 – Present',
+        description: 'blockchain, distributed systems work specializing in fault tollerance',
+        techs: ["Nodejs", "Docker", "Raft Algo", "Vue"]
+    },
     {
         workAt: 'Atscale',
         position: 'Software Engineer',
@@ -62,7 +69,7 @@ const experinceInfo = [
         workAt: 'Paysafe Group',
         position: 'Senior Android Software Engineer',
         duration: 'Apr 2018 – Aug 2019',
-        description: 'Worked on the Skrill and Neteller android applications.',
+        description: 'Worked on the Skrill and Neteller android applications. I was part of the team dealing with blockchain payment processing.',
         techs: ["Kotlin", "Android", "Jenkins", "Java", "Retrofit", "RxJava"]
     },
     {
@@ -74,6 +81,12 @@ const experinceInfo = [
     }
 ]
 const projectsInfo = [
+    {
+        name: 'ProjectCatalyst vCA-tool',
+        duration: '2022',
+        links: ["https://github.com/Project-Catalyst/vca-tool", "https://github.com/Project-Catalyst/ca-tool", "https://github.com/Project-Catalyst/voter-tool"],
+        description: 'Working with Vue js to help along with the blockchain governance phase'
+    },
     {
         name: 'NativeScript',
         duration: '2015 – 2018',

@@ -12,9 +12,9 @@
         <span style="font-style: italic">{{ proj.duration }}</span>
         <!-- <div>link: <a :href="proj.link">{{proj.link}}</a></div> -->
         <section>
-          <a v-for="(link, index) in proj.links" :key="index" :href="link">
-            <i :class="`fa-${link} mb-2`"></i> <span> {{ link }}</span>
-          </a>
+          <p v-for="(link, index) in proj.links" :key="index">
+            <a :href="link"><i :class="`fa-${link} mb-2`"></i> <span> {{ link }}</span></a>
+          </p>
         </section>
         <p
           v-if="proj.description != null && proj.description != undefined"
