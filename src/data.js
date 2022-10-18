@@ -40,52 +40,58 @@ const contactInfo = [
 ]
 
 const summaryInfo =
-    'Most of all I like challenges and I\'m always eager to learn. I care deeply about sharing my knowledge as well as learning what I can from the people I work with. Community Advisor for Project Catalyst in my spare time for fund 6,7,8. Got involved with working on distributed systems. I believe crypto is the future and I want to be part of the solution by helping with the building blocks. Big Linux fan!'
+    'I don\'t mind responsibility and taking ownership of everything that I take up, but most of all I like challenges and I\'m always eager to learn and taking pride in my work. I usually get tasked with problems that have no known solution and I am eager and happy to carve the initial path. I care deeply about sharing my knowledge as well as learning what I can from the people I work with, that\'s why I\'ve done several tech talks and have been a teacher in several schools and academies in the past. You can find links for those in the achievements section. Something I appreciated over the years is the fact I have never had a problem finding common language with any of my past and current teammates. In my spare time I am a raspberry pi enthusiast and a cyclist when I have spare time. Community Advisor for Project Catalyst in my spare time for fund 6,7,8 and 9. Big Linux fan!'
 
 
 const experinceInfo = [
     {
         workAt: 'Freelance',
-        position: 'Blockchain Developer',
-        duration: 'Aug 2021 – Present',
-        description: 'blockchain, distributed systems work specializing in fault tollerance',
-        techs: ["Nodejs", "Docker", "Raft Algo", "Vue"]
+        position: 'Freelance Developer',
+        duration: 'Aug 2018 – Present',
+        description: 'I\'ve been doing mostly NodeJS freelance backend projects of custom e-commerce sites that couldn\'t be done using generic site generation tools like wordpress. Since 2021 I\'ve become really interested in blockchain. In the blockchain space, I\'ve done mostly freelance work and I was responsible for the backend infrastructure and design of several projects along the way. Developed a couple of smart contracts as well, but mostly been doing backend work using Nodejs and accomodating infrastructure through platforms. The ecosystem has gotten me interested in distributed systems work specializing in fault tollerance.',
+        techs: ["Nodejs", "Docker", "Vue", "React"]
     },
     {
         workAt: 'Atscale',
         position: 'Software Engineer',
         duration: 'Oct 2020 – Present',
-        description: 'Big data processing, optimization through aggregates',
+        description: 'In my current occupation I\'m responsible for the development and support of a SaaS big data processing solution. The general idea is connecting BI tools like Tableau, an inhouse developed tool and others with all kinds of popular data warehouses like Postgres, Redshift, Snowflake and Hive to name a few. Besides that I\'ve been deeling with big data processing and aggregation automation optimizing the business query response speeds. This provides the business users with a familiar BI environment to ask their business questions, combiding multiple data warehouses to answer a single business query if necessary.',
         techs: ["Scala", "Docker", "PostgreSQL"]
     },
     {
         workAt: 'News UK',
         position: 'Senior Android Software Engineer',
         duration: 'Aug 2019 - Oct 2020',
-        description: 'Developed desktopDeveloping all the NewsUK Android applications along with some devops work for the CD of the apps to the store along with the pipeline of tests.',
+        description: 'I was in charge of a small team developing the NewsUK Android applications and was responsible for some devops work ensuring the continuous integration and deployment of the apps to the store. I am proud to have done the initial push for the testing pipeline migration from Jenkins to circle CI and automating and integrating with git and slack for more transparency and resiliance of the processes.',
         techs: ["Kotlin", "Java", "Retrofit", "RxJava", "OkHttp", "JUnit", "Robolectric"]
     },
     {
         workAt: 'Paysafe Group',
         position: 'Senior Android Software Engineer',
         duration: 'Apr 2018 – Aug 2019',
-        description: 'Worked on the Skrill and Neteller android applications. I was part of the team dealing with blockchain payment processing.',
+        description: 'I lead a small team of 3 people working on the Skrill and Neteller android applications. I was part of the team dealing with payment processing. I\'ve done a lot of infrastructure building as well and pushed trough some new automated processes for making sure the team has a consisten code output including formatting, minimal count of core review peers and test automation. Really focused on improving legacy code instead of just supporting it and that eventually enabled the possibility of merging the two android applications into one, which I\'m very proud of. I\'ve done a lot of work in making sure all security standards of communication were followed and learned a lot about the level any application must have in a financial setting.',
         techs: ["Kotlin", "Android", "Jenkins", "Java", "Retrofit", "RxJava"]
     },
     {
         workAt: 'Progress',
         position: 'Software Engineer',
         duration: 'Jun 2015 – Apr 2018',
-        description: 'Developing NativeScript android runtime features, helping with embedding and integrating the core product in Telerik Platform. Working on the NativeScript\'s android-runtime, doing feature development, performance optimizations, integration of modules taking advantage of the runtime.',
-        techs: ["C++", "Javascript", "Java", "V8", "Node"]
+        description: 'One of the open source projects I\'ve poured my life and soul in - NativeScript. I was instrumental for embedding a javascript runtime into an android application. It was challenging work where all your available documentation is in C header files. I developed features, helping with embedding and integrating the core product into the Telerik(now Progress) Platform. Working on the NativeScript\'s android-runtime, doing feature development, NodeJs standards implementaion from specification, performance optimizations, stress tests, integration of the wrapping modules taking advantage of the runtime. This still is one of the jobs where I am so gratefull to have had and to be able to study under the incredible people working there.',
+        techs: ["C++", "Javascript", "NodeJs", "Java", "V8", "Node"]
     }
 ]
 const projectsInfo = [
     {
+        name: 'Aurea',
+        duration: '2021-Present',
+        links: ["https://www.aurea.bg"],
+        description: 'An e-commerce site, which I\'ve done the backend for entirely on NodeJs combined with Typescript, Express, Passport.'
+    },
+    {
         name: 'ProjectCatalyst vCA-tool',
         duration: '2022',
         links: ["https://github.com/Project-Catalyst/vca-tool", "https://github.com/Project-Catalyst/ca-tool", "https://github.com/Project-Catalyst/voter-tool"],
-        description: 'Working with Vue js to help along with the blockchain governance phase'
+        description: 'Working with Vue js to help along with the blockchain governance phase.'
     },
     {
         name: 'NativeScript',
@@ -97,7 +103,7 @@ const projectsInfo = [
         name: 'JavaScript chatbot',
         duration: '2018',
         links: ["https://github.com/Plamen5kov/plamen5kov-bot"],
-        description: 'A JavaScript chatbot using Watson. Conversation, facebook Messenger API and the google YouTube API'
+        description: 'A JavaScript chatbot using Watson. Conversation, facebook Messenger API and the google YouTube API. Just a side project for experimenting with a new technology.'
     },
     {
         name: 'JavaScript static analyzer',
