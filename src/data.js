@@ -49,7 +49,7 @@ const experinceInfo = [
         position: 'Freelance Developer',
         duration: 'Aug 2018 – Present',
         description: 'I\'ve been doing mostly NodeJS freelance backend projects of custom e-commerce sites that couldn\'t be done using generic site generation tools like wordpress. Since 2021 I\'ve become really interested in blockchain. In the blockchain space, I\'ve done mostly freelance work and I was responsible for the backend infrastructure and design of several projects along the way. Developed a couple of smart contracts as well, but mostly been doing backend work using Nodejs and accomodating infrastructure through platforms. The ecosystem has gotten me interested in distributed systems work specializing in fault tollerance.',
-        techs: ["Nodejs", "Docker", "Vue", "React"]
+        techs: ["NestJs", "Microservices", "Express", "Jest", "TypeORM", "MikroORM", "Sequelize", "Postgres", "Nodejs", "Docker", "Git"]
     },
     {
         workAt: 'Atscale',
