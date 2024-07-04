@@ -40,7 +40,7 @@ const contactInfo = [
 ]
 
 const summaryInfo =
-    'I don\'t mind responsibility and taking ownership of everything that I take up, but most of all I like challenges and I\'m always eager to learn and taking pride in my work. I usually get tasked with problems that have no known solution and I am eager and happy to carve the initial path. I care deeply about sharing my knowledge as well as learning what I can from the people I work with, that\'s why I\'ve done several tech talks and have been a teacher in several schools and academies in the past. You can find links for those in the achievements section. Something I appreciated over the years is the fact I have never had a problem finding common language with any of my past and current teammates. In my spare time I am a raspberry pi enthusiast and a cyclist when I have spare time. Community Advisor for Project Catalyst in my spare time for fund 6,7,8 and 9. Big Linux fan!'
+    'I don\'t mind responsibility and taking ownership of everything that I become envolved in, but most of all I like challenges and I\'m always eager to learn. I take pride in my work! I usually get tasked with problems that have no known solution and I am eager and happy to carve the initial path. I care deeply about sharing my knowledge as well as learning what I can from the people I work with, that\'s why I\'ve done several tech talks and have been a teacher in several schools and academies in the past. You can find links for those in the achievements section. Something I appreciated over the years is the fact I have never had a problem finding common language with any of my past and current teammates. In my spare time I am a raspberry pi enthusiast and a cyclist when I have spare time. Community Advisor for Project Catalyst in my spare time since fund 6. Big Linux fan!'
 
 
 const experinceInfo = [
@@ -49,7 +49,7 @@ const experinceInfo = [
         position: 'Freelance Developer',
         duration: 'Aug 2018 – Present',
         description: 'I\'ve been doing mostly NodeJS freelance backend projects of custom e-commerce sites that couldn\'t be done using generic site generation tools like wordpress. Since 2021 I\'ve become really interested in blockchain. In the blockchain space, I\'ve done mostly freelance work and I was responsible for the backend infrastructure and design of several projects along the way. Developed a couple of smart contracts as well, but mostly been doing backend work using Nodejs and accomodating infrastructure through platforms. The ecosystem has gotten me interested in distributed systems work specializing in fault tollerance.',
-        techs: ["NestJs", "k8s", "Microservices", "Express", "Jest", "TypeORM", "MikroORM", "Sequelize", "Postgres", "Nodejs", "Docker", "Git"]
+        techs: ["NestJs", "k8s", "Microservices", "Express", "Jest", "TypeORM", "PostgreSQL", "MikroORM", "Sequelize", "Postgres", "Nodejs", "Docker", "Git"]
     },
     {
         workAt: 'Atscale',
