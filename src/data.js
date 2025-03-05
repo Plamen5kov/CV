@@ -52,6 +52,13 @@ const experinceInfo = [
         techs: ["NestJs", "k8s", "Microservices", "Express", "Jest", "TypeORM", "PostgreSQL", "MikroORM", "Sequelize", "Postgres", "Nodejs", "Docker", "Git"]
     },
     {
+        workAt: 'Agreena',
+        position: 'Senior Software Engineer',
+        duration: 'Jan 2022 – Present',
+        description: 'Doing everything that\'s needed in a startup environment. Doing nestjs microservices that are well tested and documented. Setting up docker k8s, test infrastructure using github actions. Setting up linting hooks for code consistency and so on. I\'ve been an interim teamlead as needed for about 6 months during a turbulent time in the company and I was happy to help out with team dynamics temporarily.',
+        techs: ["NestJs", "k8s", "Microservices", "Express", "Jest", "TypeORM", "PostgreSQL", "MikroORM", "Postgres", "Nodejs", "Docker", "Git"]
+    },
+    {
         workAt: 'Atscale',
         position: 'Software Engineer',
         duration: 'Oct 2020 – Present',
