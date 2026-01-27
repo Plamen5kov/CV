@@ -1,7 +1,7 @@
 <template>
 <section class="mb-5">
     <h3 class="section-title">Summary</h3>
-    <span>{{summaryInfo}}</span>
+    <span v-html="summaryInfo"></span>
 </section>
 </template>
 
