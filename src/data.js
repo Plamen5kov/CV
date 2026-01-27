@@ -25,10 +25,10 @@ const socialMediaInfo = [{
 const contactInfo = [
     {
         name: 'envelope',
-        context: 'plamen.krasimirov.petkov@gmail.com',
+        context: '5kov.p@proton.me',
         size: '20px',
         style: "font-size:20px;margin-right: 10px;",
-        link: 'mailto:plamen.krasimirov.petkov@gmail.com'
+        link: 'mailto:5kov.p@proton.me'
     },
     {
         name: 'phone-square',
@@ -45,45 +45,38 @@ const summaryInfo =
 
 const experinceInfo = [
     {
-        workAt: 'Freelance',
-        position: 'Freelance Developer',
-        duration: 'Aug 2018 – Present',
-        description: 'I\'ve been doing mostly NodeJS freelance backend projects of custom e-commerce sites that couldn\'t be done using generic site generation tools like wordpress. Since 2021 I\'ve become really interested in blockchain. In the blockchain space, I\'ve done mostly freelance work and I was responsible for the backend infrastructure and design of several projects along the way. Developed a couple of smart contracts as well, but mostly been doing backend work using Nodejs and accomodating infrastructure through platforms. The ecosystem has gotten me interested in distributed systems work specializing in fault tollerance.',
-        techs: ["NestJs", "k8s", "Microservices", "Express", "Jest", "TypeORM", "PostgreSQL", "MikroORM", "Sequelize", "Postgres", "Nodejs", "Docker", "Git"]
-    },
-    {
         workAt: 'Agreena',
         position: 'Senior Software Engineer',
         duration: 'Jan 2022 – Present',
-        description: 'Doing everything that\'s needed in a startup environment. Doing nestjs microservices that are well tested and documented. Setting up docker k8s, test infrastructure using github actions. Setting up linting hooks for code consistency and so on. I\'ve been an interim teamlead as needed for about 6 months during a turbulent time in the company and I was happy to help out with team dynamics temporarily.',
+        description: '• Architected and developed <strong>4</strong> NestJS microservices by breaking down a monolith, maintaining <strong>100%</strong> test coverage and reducing bug tickets by <strong>50%</strong>, while enforcing strict linting rules that saved <strong>3 weeks</strong> of migration time through improved code decoupling<br>• Optimized CI/CD pipeline by implementing parallel test execution across <strong>4</strong> jobs (<strong>3.5x</strong> faster) and GitHub Actions automation, enabling release frequency to increase from monthly to <strong>twice daily</strong> with significantly fewer production deployment failures<br>• Integrated Honeycomb observability platform reducing mean time to bug resolution from <strong>2 days</strong> to <strong>3-4 hours</strong> by implementing comprehensive request tracing and logging across all microservices<br>• Led a <strong>3-person</strong> development team delivering all features within <strong>10%</strong> estimation accuracy while maintaining code quality standards including <strong>300-line</strong> service limits and pre-commit hook enforcement',
         techs: ["NestJs", "k8s", "Microservices", "Express", "Jest", "TypeORM", "PostgreSQL", "MikroORM", "Postgres", "Nodejs", "Docker", "Git"]
     },
     {
         workAt: 'Atscale',
         position: 'Software Engineer',
         duration: 'Oct 2020 – Present',
-        description: 'In my current occupation I\'m responsible for the development and support of a SaaS big data processing solution. The general idea is connecting BI tools like Tableau, an inhouse developed tool and others with all kinds of popular data warehouses like Postgres, Redshift, Snowflake and Hive to name a few. Besides that I\'ve been deeling with big data processing and aggregation automation optimizing the business query response speeds. This provides the business users with a familiar BI environment to ask their business questions, combiding multiple data warehouses to answer a single business query if necessary.',
+        description: '• Developed and optimized semantic layer middleware translating BI tool queries to SQL across multiple data warehouses, processing <strong>2-3 TB</strong> of data daily and accelerating query response times by <strong>1.2-3x</strong> through automated aggregation and reuse of common subqueries<br>• Engineered query optimization algorithms improving overall system response time by <strong>5%</strong> by analyzing and optimizing query execution patterns across the platform<br>• Maintained integrations with major data warehouse platforms (Databricks, Snowflake, Postgres, Apache Hive/Impala) enabling unified semantic layer that eliminated platform-specific SQL development requirements for business users<br>• Ensured SaaS platform reliability for all Atscale partners by implementing comprehensive pressure testing covering diverse query scenarios and optimization edge cases',
         techs: ["Scala", "Docker", "PostgreSQL"]
     },
     {
         workAt: 'News UK',
         position: 'Senior Android Software Engineer',
         duration: 'Aug 2019 - Oct 2020',
-        description: 'I was in charge of a small team developing the NewsUK Android applications and was responsible for some devops work ensuring the continuous integration and deployment of the apps to the store. I am proud to have done the initial push for the testing pipeline migration from Jenkins to circle CI and automating and integrating with git and slack for more transparency and resiliance of the processes.',
-        techs: ["Kotlin", "Java", "Retrofit", "RxJava", "OkHttp", "JUnit", "Robolectric"]
+        description: '• Led <strong>2-person</strong> Android team maintaining News UK app (<strong>100k+</strong> downloads) and accelerated release cadence from once every <strong>2 months</strong> to <strong>weekly</strong> by establishing Jenkins CI/CD pipeline with automated deployment to Play Store<br>• Spearheaded migration from Jenkins to Circle CI achieving <strong>4x</strong> faster build times through parallelization and smoke testing implementation, while integrating Git and Slack for enhanced process transparency<br>• Designed and implemented comprehensive "way of working" framework including ticket templates with testing criteria and PR review standards, reducing average code review time from <strong>3 days</strong> to <strong>1 day</strong><br>• Improved cross-team collaboration and QA efficiency by establishing structured ticket creation process with explicit testing sections, reducing clarification requests and streamlining development workflow',
+        techs: ["Kotlin", "Java", "Jenkins", "Circle CI", "Retrofit", "RxJava", "OkHttp", "JUnit", "Robolectric"]
     },
     {
         workAt: 'Paysafe Group',
         position: 'Senior Android Software Engineer',
         duration: 'Apr 2018 – Aug 2019',
-        description: 'I lead a small team of 3 people working on the Skrill and Neteller android applications. I was part of the team dealing with payment processing. I\'ve done a lot of infrastructure building as well and pushed trough some new automated processes for making sure the team has a consisten code output including formatting, minimal count of core review peers and test automation. Really focused on improving legacy code instead of just supporting it and that eventually enabled the possibility of merging the two android applications into one, which I\'m very proud of. I\'ve done a lot of work in making sure all security standards of communication were followed and learned a lot about the level any application must have in a financial setting.',
+        description: '• Led <strong>3-person</strong> Android team managing Skrill and Neteller payment processing applications serving <strong>36 million</strong> combined users, achieving <strong>65%</strong> code module reusability by architecting shared design system, components, and translation framework<br>• Refactored legacy Neteller codebase by developing <strong>50+</strong> reusable common components and systematically replacing modules to match Skrill standards, increasing test coverage from <strong>20%</strong> to <strong>85%</strong> while ensuring business requirement compliance<br>• Established automated code quality processes including formatting enforcement, peer review standards, and test automation, reducing bugfix time from <strong>1 week</strong> to <strong>1 day</strong> through improved logging and decreasing PR review time from <strong>3-4 days</strong> to <strong>1 day</strong><br>• Ensured PCI compliance and enhanced security posture by implementing financial industry communication standards and raising minimum Android support level to eliminate known exploits on older devices',
         techs: ["Kotlin", "Android", "Jenkins", "Java", "Retrofit", "RxJava"]
     },
     {
         workAt: 'Progress',
         position: 'Software Engineer',
         duration: 'Jun 2015 – Apr 2018',
-        description: 'One of the open source projects I\'ve poured my life and soul in - NativeScript. I was instrumental for embedding a javascript runtime into an android application. It was challenging work where all your available documentation is in C header files. I developed features, helping with embedding and integrating the core product into the Telerik(now Progress) Platform. Working on the NativeScript\'s android-runtime, doing feature development, NodeJs standards implementaion from specification, performance optimizations, stress tests, integration of the wrapping modules taking advantage of the runtime. This still is one of the jobs where I am so gratefull to have had and to be able to study under the incredible people working there.',
+        description: '• Optimized NativeScript Android runtime transpilation speed by <strong>2.4x</strong> by reducing JNI interface overhead, enabling faster JavaScript-to-native code conversion for improved application performance<br>• Architected and executed Google V8 JavaScript engine upgrade to major version with JIT compiler integration, delivering equivalent application speed improvements while implementing Ignition interpreter in <strong>2016</strong> to significantly reduce memory usage on small memory Android devices compared to TurboFan and Crankshaft<br>• Contributed as top contributor to NativeScript android-runtime open source project, implementing Node.js standard APIs from specification, developing features, and embedding JavaScript runtime into Android applications using C++ and V8<br>• Integrated NativeScript core product into Telerik Platform through stress testing, performance optimization, and development of wrapping modules leveraging runtime capabilities',
         techs: ["C++", "Javascript", "NodeJs", "Java", "V8", "Node"]
     }
 ]
@@ -176,7 +169,19 @@ const achievementsInfo = [
 
 const skillInfo = [
     {
-        name: 'Javascript',
+        name: 'Typescript, Javascript',
+        rate: 95,
+    },
+    {
+        name: 'NestJs, NodeJs',
+        rate: 94,
+    },
+    {
+        name: 'Docker, Kubernetes',
+        rate: 92,
+    },
+    {
+        name: 'Java, Kotlin',
         rate: 90,
     },
     {
@@ -184,24 +189,16 @@ const skillInfo = [
         rate: 88,
     },
     {
-        name: 'C++',
-        rate: 70,
-    },
-    {
-        name: 'Java, Kotlin',
-        rate: 95,
+        name: 'Python',
+        rate: 80,
     },
     {
         name: 'VueJS',
         rate: 50,
     },
     {
-        name: 'Nodejs',
-        rate: 94,
-    },
-    {
-        name: 'Docker',
-        rate: 85,
+        name: 'C++',
+        rate: 40,
     },
 ]
 
