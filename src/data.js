@@ -1,6 +1,6 @@
 const introInfo = {
     name: 'Plamen Petkov',
-    title: 'Software Engineer',
+    title: 'Senior Software Engineer',
     location: 'Sofia, Bulgaria',
     description: '<strong>Turpis, sit amet iaculis dui consectetur at.</strong> Cras sagittis molestie orci. <strong>Suspendisse ut laoreet mi</strong>. Phasellus eu tortor vehicula, blandit enim eu, auctor massa. Nulla ultricies tortor dolor, sit amet suscipit enim <strong>condimentum id</strong>. Etiam eget iaculis tellus. Varius sit amet.',
     image: 'plamen5kov.jpg',
