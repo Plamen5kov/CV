@@ -54,7 +54,7 @@ const experinceInfo = [
     {
         workAt: 'Atscale',
         position: 'Software Engineer',
-        duration: 'Oct 2020 – Present',
+        duration: 'Oct 2020 – Dec 2021',
         description: '• Developed and optimized semantic layer middleware translating BI tool queries to SQL across multiple data warehouses, processing <strong>2-3 TB</strong> of data daily and accelerating query response times by <strong>1.2-3x</strong> through automated aggregation and reuse of common subqueries<br>• Engineered query optimization algorithms improving overall system response time by <strong>5%</strong> by analyzing and optimizing query execution patterns across the platform<br>• Maintained integrations with major data warehouse platforms (Databricks, Snowflake, Postgres, Apache Hive/Impala) enabling unified semantic layer that eliminated platform-specific SQL development requirements for business users<br>• Ensured SaaS platform reliability for all Atscale partners by implementing comprehensive pressure testing covering diverse query scenarios and optimization edge cases',
         techs: ["Scala", "Docker", "PostgreSQL"]
     },
