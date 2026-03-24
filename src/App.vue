@@ -14,8 +14,8 @@
             <Projects :projectsInfo="data.projectsInfo" />
           </div>
           <div class="col-lg-5">
-            <Education :educationInfo="data.educationInfo" />
             <Skill :skillInfo="data.skillInfo" :otherSkillInfo="data.otherSkillInfo" />
+            <Education :educationInfo="data.educationInfo" />
             <Language :languageInfo="data.languageInfo" />
             <Interest :interestInfo="data.interestInfo" />
             <Achievements :achievementsInfo="data.achievementsInfo" />
