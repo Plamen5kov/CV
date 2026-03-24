@@ -139,21 +139,21 @@ const projectsInfo = [
     duration: "2024 – Present",
     links: ["https://github.com/Plamen5kov/finance-app"],
     description:
-      "Full-stack personal finance platform built with NestJS and React. Features budget tracking, financial goal management with emergency fund calculations, and a budget advisor component. Dockerized with PostgreSQL, deployed via Docker Compose.<br><strong>Demo:</strong> <a href='https://finance.5kov.xyz' target='_blank'>finance.5kov.xyz</a><br>username: <code>demo</code> / password: <code>DemoPassword123</code>",
+      "Full-stack personal finance platform with budget tracking, goal management, and a budget advisor component.<ul><li><strong>Stack:</strong> NestJS + React + PostgreSQL, Dockerized via Docker Compose</li><li><strong>Features:</strong> Emergency fund calculations, financial goal tracking, spending analytics</li></ul><br><strong>Demo:</strong> <a href='https://finance.5kov.xyz' target='_blank'>finance.5kov.xyz</a><br>username: <code>demo</code> / password: <code>DemoPassword123</code>",
   },
   {
     name: "Audiobook Pipeline",
     duration: "2025 – Present",
     links: ["https://github.com/plamen5kov/audiobook-pipeline"],
     description:
-      "Multi-service pipeline that turns book chapters into full audiobooks with distinct voices per character and emotional delivery. 8-container Docker Compose stack running on an NVIDIA DGX Spark: hybrid text analyzer (deterministic parsing + LLM), TTS router supporting multiple engines (XTTS v2 voice cloning, Qwen3-TTS), parallel audio synthesis, and Whisper-based QA. React frontend with NestJS API gateway, all open-source.",
+      "Turns book chapters into full audiobooks with distinct voices per character and emotional delivery. All open-source, no paid APIs.<ul><li><strong>Pipeline:</strong> Text analysis (deterministic parsing + LLM) &#8594; multi-engine TTS (XTTS v2 voice cloning, Qwen3-TTS) &#8594; audio assembly &#8594; Whisper QA</li><li><strong>Stack:</strong> 8-container Docker Compose on NVIDIA DGX Spark, React frontend, NestJS API gateway</li><li><strong>Features:</strong> Parallel synthesis, per-character voice casting, pluggable TTS engines</li></ul><br><strong>Demo:</strong> <a href='https://pipeline.5kov.xyz' target='_blank'>pipeline.5kov.xyz</a> (contact me for a private demo, or clone the repo and set it up yourself)",
   },
   {
     name: "Terminal (Android SSH Client)",
     duration: "2025 – Present",
     links: ["https://github.com/Plamen5kov/mobile-access-android"],
     description:
-      "Native Android SSH terminal app with a retro 80s aesthetic. Features multi-tab sessions, tmux integration with auto-attach and disconnect survival, Ed25519 key auth encrypted via Android Keystore, and xterm.js rendering with 256-color support. Works with system-installed voice keyboards like Sayboard and Whisper+ for hands-free terminal input. Built with Kotlin and a Vite/TypeScript frontend, designed for GrapheneOS without Google Play Services.",
+      "Native Android SSH terminal with a retro 80s phosphor aesthetic. Designed for GrapheneOS, no Google Play Services required.<ul><li><strong>Stack:</strong> Kotlin + Vite/TypeScript frontend with xterm.js (256-color, full VT100)</li><li><strong>Features:</strong> Multi-tab sessions, tmux auto-attach with disconnect survival, Ed25519 keys encrypted via Android Keystore</li><li><strong>Voice input:</strong> Works with system keyboards like Sayboard and Whisper+ for hands-free terminal control</li></ul><br><strong>Install:</strong> Available via <a href='https://github.com/ImranR98/Obtainium' target='_blank'>Obtainium</a> (point it at the GitHub repo for automatic updates)",
   },
   {
     name: "ProjectCatalyst vCA-tool",
