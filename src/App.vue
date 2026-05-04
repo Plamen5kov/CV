@@ -1,6 +1,14 @@
 <template>
   <div class="main-page text-center position-relative" ref="content">
-    <div class="main-page-inner mx-auto text-start bg-white shadow-lg">
+    <div class="main-page-inner mx-auto text-start bg-white shadow-lg position-relative">
+      <button
+        type="button"
+        class="btn btn-sm download-pdf-btn"
+        @click="downloadPdf"
+        aria-label="Download PDF"
+      >
+        <i class="fa fa-download"></i> Download PDF
+      </button>
       <Intro
         :introInfo="data.introInfo"
         :contactInfo="data.contactInfo"
@@ -56,10 +64,35 @@ export default {
     return {
       data: data
     };
+  },
+  methods: {
+    downloadPdf() {
+      window.print();
+    }
   }
 };
 </script>
 
 <style>
 @import "./assets/css/font-awesome/css/font-awesome.css";
+
+.download-pdf-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+@media print {
+  .download-pdf-btn {
+    display: none !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
 </style>
