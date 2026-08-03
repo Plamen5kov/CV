@@ -3,7 +3,7 @@ const introInfo = {
   title: "Senior Software Engineer",
   location: "Sofia, Bulgaria",
   description:
-    "<strong>11+ years</strong> of professional software engineering experience. Specialized in <strong>Node.js, NestJS, React</strong>, and <strong>Docker</strong>. Passionate about clean architecture, scalable systems, and mentoring teams.",
+    "<strong>11+ years</strong> of professional software engineering experience. Specialized in <strong>Node.js, NestJS, React</strong>, and <strong>Docker</strong>, with deep hands-on work in <strong>AI-augmented development</strong> — AI agents, MCP, and custom automation harnesses. Passionate about clean code, scalable systems, and shipping reliably.",
   image: "plamen5kov.jpg",
 };
 
@@ -41,24 +41,24 @@ const contactInfo = [
 ];
 
 const summaryInfo =
-  "Senior full-stack engineer with <strong>11+ years</strong> of experience building scalable backend services, microservice architectures, and modern web applications. Currently freelancing with a focus on Node.js, NestJS, React, and containerized deployments.<br>I take ownership of what I build and enjoy carving initial paths where no known solution exists. I have a strong track record of designing architectures that align with business needs, breaking down monoliths into maintainable microservices, and establishing CI/CD pipelines that dramatically increase release velocity.<br>Throughout my career I've led teams of 2 to 4 engineers, served as interim team lead, and mentored developers through tech talks and teaching at Telerik Academy and Software University.<br>I care deeply about code quality, test coverage, and developer experience. I've consistently reduced bug resolution times, improved review workflows, and built shared tooling that accelerates entire teams.<br>In my spare time I tinker with microcontrollers, self-host infrastructure on Linux, and cycle when the weather allows.";
+  "Senior software engineer with <strong>11+ years</strong> building scalable backend services, microservices, and modern web applications across fintech, data platforms, and high-growth scale-ups. Deep with <strong>Node.js, NestJS, TypeScript, React, PostgreSQL and Docker</strong>, and an early, hands-on adopter of <strong>AI-augmented development</strong>: I build and run custom <strong>AI-agent harnesses, MCP integrations, and automated quality pipelines</strong> that have <strong>2&#8211;3x</strong>'d my development throughput and reliability.<br>I take ownership of what I build and enjoy carving initial paths where no known solution exists, with a strong track record of designing clean, scalable systems, breaking monoliths into maintainable microservices, and establishing CI/CD that dramatically increases release velocity.<br>Throughout my career I've led teams of 2 to 4 engineers, served as interim team lead, and mentored developers through tech talks and teaching at Telerik Academy and Software University.<br>I care deeply about code quality, test coverage, and developer experience. I've consistently reduced bug resolution times, improved review workflows, and built shared tooling that accelerates entire teams.<br>In my spare time I tinker with microcontrollers, self-host infrastructure on Linux, and cycle when the weather allows.";
 
 const experinceInfo = [
   {
-    workAt: "Independent Consultant",
-    position: "Software Architect & Engineering Consultant",
+    workAt: "Freelance / B2B Contractor",
+    position: "Senior Software Engineer",
     duration: "Mar 2026 – Present",
     description:
-      "• Designing and building scalable web applications for clients, focusing on clean architecture, containerized deployments, and maintainable codebases<br>• Developing full-stack solutions using Node.js and NestJS for backend services with React frontends, delivering end-to-end features from database design to UI implementation<br>• Containerizing applications with Docker and Docker Compose, setting up CI/CD pipelines, and establishing development workflows for small to mid-sized teams<br>• Building RESTful APIs and microservice architectures with a focus on performance, test coverage, and production reliability",
+      "• Built a custom <strong>multi-agent AI development harness</strong> orchestrating agents across a research &#8594; build &#8594; verify &#8594; review pipeline, <strong>8x</strong> increasing iteration speed while raising reliability through automated quality gates and verification agents that catch defects before merge<br>• Integrated <strong>Model Context Protocol (MCP)</strong> servers and a persistent cross-session memory system, eliminating repeated context-gathering and keeping agents grounded in current project state<br>• Codified engineering standards as <strong>automated hooks</strong> (research gate, quality gate, test-before-merge) that mechanically enforce process and cut rework and review churn<br>• Deliver full-stack B2B features end-to-end with <strong>Node.js/NestJS</strong> backends and <strong>React</strong> frontends, containerized with <strong>Docker</strong>, focused on performance, test coverage, and production reliability",
     techs: [
+      "AI Agents",
+      "MCP",
       "Node.js",
       "NestJS",
       "React",
       "Docker",
       "PostgreSQL",
       "TypeScript",
-      "REST APIs",
-      "Microservices",
     ],
   },
   {
@@ -250,6 +250,14 @@ const achievementsInfo = [
 
 const skillInfo = [
   {
+    name: "AI Agents & LLM Orchestration",
+    rate: 92,
+  },
+  {
+    name: "MCP, Agentic Workflows",
+    rate: 90,
+  },
+  {
     name: "Typescript, Javascript",
     rate: 95,
   },
@@ -288,6 +296,11 @@ const skillInfo = [
 ];
 
 const otherSkillInfo = [
+  "AI Agents",
+  "MCP (Model Context Protocol)",
+  "Claude Code",
+  "LLM Orchestration",
+  "Prompt Engineering",
   "Git",
   "GitHub Actions",
   "CI/CD",
