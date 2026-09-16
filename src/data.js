@@ -66,7 +66,7 @@ const experinceInfo = [
     position: "Senior Software Engineer",
     duration: "Jan 2022 – Feb 2026",
     description:
-      "• Served as interim team lead for <strong>1 year</strong> managing a <strong>4-person</strong> development team, delivering all features within <strong>10%</strong> estimation accuracy while maintaining code quality standards including <strong>300-line</strong> service limits and pre-commit hook enforcement<br>• Designed highly normalized database architecture ensuring maximum flexibility to accommodate uncertain business direction, enabling seamless schema evolution and data model adaptability as business requirements emerged<br>• Architected and developed <strong>4</strong> NestJS microservices by breaking down a monolith, maintaining <strong>100%</strong> test coverage and reducing bug tickets by <strong>50%</strong>, while enforcing strict linting rules that saved <strong>3 weeks</strong> of migration time through improved code decoupling<br>• Developed overall microservice architecture concept and created standardized templates enabling consistent service creation and inter-service communication, while building robust RESTful APIs serving the platform<br>• Researched and developed Proof of Concept for AWS SNS and SQS implementation to enable fan-out messaging pattern between microservices, improving asynchronous communication and system scalability<br>• Designed Continuous Delivery release process and automated testing and build workflows using GitHub Actions, enabling release frequency to increase from monthly to <strong>twice daily</strong> with significantly fewer production deployment failures<br>• Optimized CI/CD pipeline by implementing parallel test execution across <strong>4</strong> jobs (<strong>3.5x</strong> faster), while spearheading research and developing Proof of Concept applications to validate new architectural approaches and technology decisions<br>• Integrated Honeycomb observability platform reducing mean time to bug resolution from <strong>2 days</strong> to <strong>3-4 hours</strong> by implementing comprehensive request tracing and logging across all microservices",
+      "• Served as interim team lead for <strong>1 year</strong> managing a <strong>4-person</strong> development team, delivering all features within <strong>10%</strong> estimation accuracy while maintaining code quality standards including <strong>300-line</strong> service limits and pre-commit hook enforcement<br>• Designed highly normalized database architecture ensuring maximum flexibility to accommodate uncertain business direction, enabling seamless schema evolution and data model adaptability as business requirements emerged<br>• Architected and developed <strong>4</strong> NestJS microservices by breaking down a monolith, maintaining <strong>100%</strong> test coverage and reducing bug tickets by <strong>50%</strong>, while enforcing strict linting rules that saved <strong>3 weeks</strong> of migration time through improved code decoupling<br>• Developed overall microservice architecture concept and created standardized templates enabling consistent service creation and inter-service communication, while building robust RESTful APIs serving the platform<br>• Researched and developed Proof of Concept for AWS SNS and SQS implementation to enable fan-out messaging pattern between microservices, improving asynchronous communication and system scalability<br>• Built <strong>Databricks</strong> data pipelines and ETL jobs ingesting and transforming platform data, integrated NestJS microservices with Databricks for reading and writing data, and delivered analytics and reporting datasets on top of it<br>• Designed Continuous Delivery release process and automated testing and build workflows using GitHub Actions, enabling release frequency to increase from monthly to <strong>twice daily</strong> with significantly fewer production deployment failures<br>• Optimized CI/CD pipeline by implementing parallel test execution across <strong>4</strong> jobs (<strong>3.5x</strong> faster), while spearheading research and developing Proof of Concept applications to validate new architectural approaches and technology decisions<br>• Integrated Honeycomb observability platform reducing mean time to bug resolution from <strong>2 days</strong> to <strong>3-4 hours</strong> by implementing comprehensive request tracing and logging across all microservices",
     techs: [
       "NestJs",
       "k8s",
@@ -79,6 +79,7 @@ const experinceInfo = [
       "Postgres",
       "Nodejs",
       "Docker",
+      "Databricks",
       "Git",
     ],
   },
@@ -87,8 +88,8 @@ const experinceInfo = [
     position: "Software Engineer",
     duration: "Oct 2020 – Dec 2021",
     description:
-      "• Developed and optimized semantic layer middleware translating BI tool queries to SQL across multiple data warehouses, processing <strong>2-3 TB</strong> of data daily and accelerating query response times by <strong>1.2-3x</strong> through automated aggregation and reuse of common subqueries<br>• Engineered query optimization algorithms improving overall system response time by <strong>5%</strong> by analyzing and optimizing query execution patterns across the platform<br>• Maintained integrations with major data warehouse platforms (Databricks, Snowflake, Postgres, Apache Hive/Impala) enabling unified semantic layer that eliminated platform-specific SQL development requirements for business users<br>• Ensured SaaS platform reliability for all Atscale partners by implementing comprehensive pressure testing covering diverse query scenarios and optimization edge cases",
-    techs: ["Scala", "Docker", "PostgreSQL"],
+      "• Developed and optimized semantic layer middleware translating BI tool queries to SQL across multiple data warehouses, processing <strong>2-3 TB</strong> of data daily and accelerating query response times by <strong>1.2-3x</strong> through automated aggregation and reuse of common subqueries<br>• Engineered query optimization algorithms improving overall system response time by <strong>5%</strong> by analyzing and optimizing query execution patterns across the platform<br>• Maintained integrations with major data warehouse platforms (Databricks, Snowflake, Postgres, Apache Hive/Impala) enabling unified semantic layer that eliminated platform-specific SQL development requirements for business users<br>• Extended the <strong>Databricks</strong> integration: generated Databricks/Spark SQL from semantic-layer queries and handled dialect differences, built and managed automatic aggregate tables on <strong>Delta Lake</strong>, and ran performance testing of query workloads against Databricks<br>• Ensured SaaS platform reliability for all Atscale partners by implementing comprehensive pressure testing covering diverse query scenarios and optimization edge cases",
+    techs: ["Scala", "Databricks", "Spark SQL", "Delta Lake", "Docker", "PostgreSQL"],
   },
   {
     workAt: "News UK",
@@ -306,6 +307,7 @@ const otherSkillInfo = [
   "CI/CD",
   "Nginx",
   "AWS SQS/SNS",
+  "Databricks",
   "REST APIs",
   "Microservices",
   "Linux",
