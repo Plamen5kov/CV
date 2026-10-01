@@ -45,7 +45,7 @@ const summaryInfo =
 
 const experinceInfo = [
   {
-    workAt: "Freelance / B2B Contractor",
+    workAt: "B2B Contractor",
     position: "Senior Software Engineer",
     duration: "Mar 2026 – Present",
     description:
